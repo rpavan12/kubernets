@@ -7,5 +7,5 @@ metadata:
 
 managedNodeGroups:
   - name: mynodegroup
-    instanceType: t2.micro
-    desiredCapacity: 3
+    instanceType: t3.micro
+    desiredCapacity: 2
