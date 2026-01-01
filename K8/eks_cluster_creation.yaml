@@ -6,6 +6,6 @@ metadata:
   region: us-east-1
 
 managedNodeGroups:
-  - name: mynodegroup
+  - name: myNG
     instanceType: t3.small
     desiredCapacity: 2
