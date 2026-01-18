@@ -3,22 +3,20 @@ kind: Deployment
 metadata:
   name: kalyan-deployment
   namespace: dev
-  
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: myapp1
+      app: httpd-app1
 
-
-template:
- metadata:
-  labels:
-    app: myapp1
- spec:
-  containers:
-   - name: myapp1-container
-     image: httpd:latest
-     ports:
-      - containerPort: 80
+  template:
+    metadata:
+      labels:
+        app: httpd-app1
+    spec:
+      containers:
+      - name: httpd-container
+        image: httpd
+          ports:
+          - containerPort: 80
       
