@@ -7,7 +7,7 @@ metadata:
 
 spec:
   replicas: 2
-   selector:
+  selector:
     matchLabels:
       app: httpd
 
