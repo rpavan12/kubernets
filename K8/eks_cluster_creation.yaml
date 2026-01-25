@@ -8,4 +8,4 @@ metadata:
 managedNodeGroups:
   - name: myNG
     instanceType: t3.small
-    desiredCapacity: 2
+    desiredCapacity: 3
